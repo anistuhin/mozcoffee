@@ -1,0 +1,353 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+	background: #f2f2f2;
+}
+a {
+	text-decoration: none;
+	color: #0095dd;
+}
+a:focus, a:visited, a:active, a:hover {
+	text-decoration: none;
+	border: 0;
+	outline: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #0095dd;
+}
+ul {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+.nohrvt {
+	background: transparent !important;
+}
+#tabzilla {
+    z-index: 99999;
+}
+#tabzilla:before {
+    background-color: #0C99D5;
+}
+header {
+	height: calc(100vh + 105px);
+	background: url(../img/hero-image.jpg);
+	background-size: cover;
+	background-repeat:  no-repeat;
+	color: #ffffff;
+}
+.navbar-brand {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+}
+.subhead {
+	font-weight: 400;
+}
+header a:hover {
+	color: #ffffff;
+}
+header h1 {
+	color: #ffffff;
+	font-size: 60px;
+	margin: 30px 00;
+}
+header h1 span {
+	font-weight: 700;
+}
+header p {
+	margin-bottom: 50px;
+}
+header .create-event {
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	background: #78c255;
+	border-radius: 4px;
+}
+#activities {
+	position: relative;
+}
+#activities > .row {
+	padding: 50px 0;
+	margin: -105px 0 105px;
+	background: #ffffff;
+	border-radius: 4px;
+	box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, .07);
+}
+#activities > .row article {
+	text-align: center;
+	background: url(../img/hr1.png);
+	background-position: right;
+	background-repeat:  no-repeat;
+}
+#activities > .row article h3 {
+	color: #333333;
+}
+#activities > .row article p {
+	padding: 0 10%;
+}
+#activities > .row img {
+	display: block;
+	margin: 0 auto;
+}
+#instructions .glyphicon-chevron-left::before, #instructions .glyphicon-chevron-right::before {
+    color: rgba(153,153,153,.7);
+    font-size: 22px;
+}
+#instructions .tabbed-instruction {
+	height: 79px;
+	background: #ffffff;
+	box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, .07);	
+}
+#instructions .wrapper {
+	position: relative;
+	margin: 0 auto;
+	height: 79px;
+	overflow: hidden;
+}
+#instructions .list {
+	position: absolute;
+	left: calc(50vw - 294px);
+	top: 0px;
+	min-width: 3000px;
+	margin-left: 12px;
+	margin-top: 0px;
+}
+#instructions .list > li {
+	display: table-cell;
+	position: relative;
+	text-align: center;
+	cursor: grab;
+	cursor: -webkit-grab;
+	color: #efefef;
+	vertical-align: middle;
+}
+#instructions .list > li > span {
+	display: none;
+}
+#instructions .list > li.active > span {
+	width: 25px;
+	height: 16px;
+	display: block;
+	background: url(../img/active-tab-span.png);
+	margin: -1px auto 0;
+}
+#instructions .scroller {
+	text-align: center;
+	cursor: pointer;
+	display: none;
+	padding: 26px 10px;
+	white-space: no-wrap;
+	vertical-align: middle;
+	background: #ffffff;
+}
+#instructions .scroller-right{
+	float: right;
+}
+#instructions .scroller-left {
+	float: left;
+}
+#instructions .nav-tabs {
+	border: 0;
+}
+#instructions .nav-tabs > li > a {
+	text-align: center;
+	background: transparent;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #999999;
+	padding: 20px 30px;
+	border: 0;
+}
+#instructions .nav-tabs > li > a:hover {
+	background: transparent;
+	color: #0095dd;
+}
+#instructions .nav-tabs > li.active > a, #instructions .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	color: #0095dd;
+	background: transparent;
+}
+#instructions .tab-content {
+	padding-bottom: 40px;
+	height: 390px;
+}
+#instructions .tab-content h1 {
+	padding: 15px 10%;
+	text-align: center;
+}
+#instructions .tab-content ul li {
+	margin-bottom: 5px;
+}
+#instructions .tab-content p {
+	padding: 0 10%;
+}
+#instructions .tab-content img {
+	border: 8px solid #ffffff;
+	box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, .2);
+}
+#events {
+	padding: 70px 0 100px;
+	background: #ffffff;
+}
+#events h4 {
+	text-transform: uppercase;
+	color: #333333;
+	font-weight: 700;
+	margin: 30px 0;
+}
+#events p {
+	margin: 15px 0;
+}
+#events img {
+	border: 8px solid #ffffff;
+	box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, .2);
+}
+#events ul#lightSlider > li {
+	padding: 0 5px;
+}
+#events .lSAction > a {
+    top: calc(50% - 35px);
+    background-image: url('../img/controls.png');
+    opacity: 1;
+}
+#events .lSAction > .lSPrev {
+    background-position: 0 0;
+    left: -2px;
+}
+#events .lSAction > .lSNext {
+    background-position: 0 32px;
+    right: -2px;
+}
+#events .lSSlideOuter .lSPager.lSpg > li a {
+    background-color: rgba(66, 69, 90, .5);
+}
+#events .lSSlideOuter .lSPager.lSpg > li:hover a, #events .lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color: rgba(66, 69, 90, 1);
+}
+footer {
+	font-size: 12px;
+	background: #323232;
+	color: #bbbbbb;
+	padding: 20px 0 50px;
+}
+footer ul {
+	padding: 0;
+}
+footer .col-md-2, footer .col-md-4 {
+	margin-top: 30px;
+}
+@media screen and (max-width: 1199px) {
+	#instructions .tab-content {
+		height: 430px;
+	}
+}
+@media screen and (max-width: 991px) {
+	header img {
+		margin-top: calc(50vh - 150px);
+	}
+	#instructions .tab-content {
+		height: 530px;
+	}
+}
+@media screen and (max-width: 767px) {
+    header {
+    	text-align: center;
+    }
+    .navbar-brand {
+    	width: 170px;
+    	text-align: center;
+    	margin-left: calc(50vw - 85px);
+    	margin-right: calc(50vw - 85px);
+    }
+    header p {
+    	padding: 0 10%;
+    }
+	header img {
+    	display: none;
+    }
+	#activities > .row {
+		padding: 0;
+	}
+	#activities > .row article {
+		padding: 50px 0;
+		background: url(../img/vt2.png);
+		background-position: bottom center;
+		background-repeat:  no-repeat;
+	}
+	#activities > .row article p {
+		padding: 0 15%;
+	}
+	#instructions .tab-content {
+		height: 430px;
+	}
+	#instructions .tab-content p {
+		padding: 0 10%;
+	}
+	#instructions .tab-content img {
+		display: none;
+	}
+}
+@media screen and (max-width: 640px) {
+    header h1 {
+    	font-size: 32px;
+    	padding: 0 10%;
+    }
+
+}
+@media screen and (max-width: 588px) {
+	#instructions .list {
+		left: 0;
+	}
+}
+@media screen and (max-width: 560px) {
+	#activities > .row article {
+		background: url(../img/vt1.png);
+		background-position: bottom center;
+		background-repeat:  no-repeat;
+	}
+	#instructions .tab-content {
+		height: 510px;
+	}
+	footer .col-custom-1, footer .col-custom-2 {
+		width: 50%;
+	}
+	footer .col-custom-3 {
+		width: 100%;
+	}
+	footer .col-custom-3 p, footer .col-custom-3 img {
+		float: left;
+		display: inline-block;
+		width: 50%;
+	}
+	footer .col-custom-3 img {
+		max-width: 122px;
+	}
+}
+@media screen and (max-width: 420px) {
+	.navbar-brand {
+		margin-top: 10px;
+	}
+    header h1 {
+    	margin: 0 0 10px;
+    }
+    header p {
+    	margin-bottom: 30px;
+    }
+    #instructions .tab-content {
+		height: 580px;
+	}
+}
+@media screen and (max-width: 380px) {
+	#instructions .tab-content {
+		height: 620px;
+	}
+}
