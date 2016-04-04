@@ -114,6 +114,9 @@ header .create-event {
 	height: 79px;
 	overflow: hidden;
 }
+#instructions ul {
+	list-style: outside none disc;
+}
 #instructions .list {
 	position: absolute;
 	left: calc(50vw - 294px);
