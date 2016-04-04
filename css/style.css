@@ -110,7 +110,7 @@ header .create-event {
 	background: #ffffff;
 	box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, .07);	
 }
-#instructions .wrapper {
+#instructions ul {
 	list-style: disc;
 }
 #instructions .wrapper {
