@@ -117,7 +117,7 @@ header .create-event {
 	overflow: hidden;
 }
 #instructions ul {
-	list-style: outside none disc;
+	list-style: disc;
 }
 #instructions .list {
 	position: absolute;
