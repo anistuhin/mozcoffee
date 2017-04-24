@@ -52,12 +52,18 @@ header {
 	padding-right: 0;
 }
 
-.navbar-brand .brandicon{
-	clear: left;
-	margin-top: 0;
+header .navbar-brand .brandicon{
 	float:none;
-	vertical-align: auto;
-	height:50px;
+	display: inline;
+}
+
+@media screen and (max-width: 991px) {
+	header .brandicon {
+		margin-top: calc(50vh - 150px);
+	}
+	#instructions .tab-content {
+		height: 530px;
+	}
 }
 .subhead {
 	font-weight: 400;
@@ -352,7 +358,7 @@ footer .col-md-2, footer .col-md-4 {
 }
 @media screen and (max-width: 420px) {
 	.navbar-brand {
-		margin-top: 10px;
+		margin-top: 15px;
 	}
     header h1 {
     	margin: 0 0 10px;
@@ -367,5 +373,10 @@ footer .col-md-2, footer .col-md-4 {
 @media screen and (max-width: 380px) {
 	#instructions .tab-content {
 		height: 620px;
+	}
+}
+@media screen and (max-width: 991px) {
+	header .brandicon {
+		margin-top:
 	}
 }
