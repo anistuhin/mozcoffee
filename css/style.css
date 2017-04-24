@@ -51,6 +51,14 @@ header {
 	padding-left: 0;
 	padding-right: 0;
 }
+
+.navbar-brand .brandicon{
+	clear: left;
+	margin-top: 0;
+	float:none;
+	vertical-align: auto;
+	height:50px;
+}
 .subhead {
 	font-weight: 400;
 }
