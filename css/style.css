@@ -1,9 +1,9 @@
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Arvo);
 /* Styles */
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	color: #333333;
 	background: #f2f2f2;
 }
@@ -17,6 +17,7 @@ a:focus, a:visited, a:active, a:hover {
 	outline: 0;
 }
 h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arvo', 'Open Sans', sans-serif;
 	color: #0095dd;
 }
 ul {
@@ -42,12 +43,27 @@ header {
 	color: #ffffff;
 }
 .navbar-brand {
-	font-size: 30px;
+	font-family:'Zilla Slab', serif;
+	font-size: 35px;
 	font-weight: 700;
 	color: #ffffff;
 	margin-top: 30px;
 	padding-left: 0;
 	padding-right: 0;
+}
+
+header .navbar-brand .brandicon{
+	float:none;
+	display: inline;
+}
+
+@media screen and (max-width: 991px) {
+	header .brandicon {
+		margin-top: calc(50vh - 150px);
+	}
+	#instructions .tab-content {
+		height: 530px;
+	}
 }
 .subhead {
 	font-weight: 400;
@@ -342,7 +358,7 @@ footer .col-md-2, footer .col-md-4 {
 }
 @media screen and (max-width: 420px) {
 	.navbar-brand {
-		margin-top: 10px;
+		margin-top: 15px;
 	}
     header h1 {
     	margin: 0 0 10px;
@@ -357,5 +373,10 @@ footer .col-md-2, footer .col-md-4 {
 @media screen and (max-width: 380px) {
 	#instructions .tab-content {
 		height: 620px;
+	}
+}
+@media screen and (max-width: 991px) {
+	header .brandicon {
+		margin-top:
 	}
 }
